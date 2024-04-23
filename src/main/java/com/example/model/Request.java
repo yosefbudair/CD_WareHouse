@@ -9,5 +9,43 @@ public class Request {
     private LocalDateTime dealTimestamp;
     private double dealAmount;
 
-    // Constructor, getters, and setters
+    public String getDealUniqueId() {
+        return dealUniqueId;
+    }
+
+    public void setDealUniqueId(String dealUniqueId) {
+        this.dealUniqueId = dealUniqueId;
+    }
+
+    public String getFromCurrencyISOCode() {
+        return fromCurrencyISOCode;
+    }
+
+    public void setFromCurrencyISOCode(String fromCurrencyISOCode) {
+        this.fromCurrencyISOCode = fromCurrencyISOCode;
+    }
+
+    public String getToCurrencyISOCode() {
+        return toCurrencyISOCode;
+    }
+
+    public void setToCurrencyISOCode(String toCurrencyISOCode) {
+        this.toCurrencyISOCode = toCurrencyISOCode;
+    }
+
+    public LocalDateTime getDealTimestamp() {
+        return dealTimestamp;
+    }
+
+    public void setDealTimestamp(LocalDateTime dealTimestamp) {
+        this.dealTimestamp = dealTimestamp;
+    }
+
+    public double getDealAmount() {
+        return dealAmount;
+    }
+
+    public void setDealAmount(double dealAmount) {
+        this.dealAmount = dealAmount;
+    }
 }

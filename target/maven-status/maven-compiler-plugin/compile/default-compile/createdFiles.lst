@@ -1,2 +1,4 @@
+com\example\model\Request.class
+com\example\validation\RequestValidator.class
+com\example\importer\RequestImporter.class
 com\example\Main.class
-com\example\App.class
